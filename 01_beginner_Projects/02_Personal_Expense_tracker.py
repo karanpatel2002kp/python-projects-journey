@@ -7,13 +7,6 @@ print("4.Exit")
 choice = int(input("enter your option:"))
 
 if choice == 1:
-    expense = {
-        "name" : expense_name,
-        "amount" : amount,
-        "category" : category
-    }
-    expenses.append(expense)
-    print("Expense added successfully!")
 
     expense_name = input("enter your expense name:")
     amount = float(input("enter your Amount:"))
